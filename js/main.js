@@ -83,8 +83,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     menuToggleBtn.addEventListener('click', function() {
         menuContent.classList.toggle('active');
+        document.body.classList.toggle('active__menu');
     });
+
     menuCloseBtn.addEventListener('click', function() {
         menuContent.classList.remove('active');
+        document.body.classList.remove('active__menu');
     });
 });
