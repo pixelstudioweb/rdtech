@@ -320,6 +320,9 @@ header {
 .header__humburger {
     display: none;
 }
+.header_white .header__humburger svg line {
+    stroke: #000;
+}
 @media (max-width: 1740px) {
     .header__link {
         font-size: 14px;
@@ -2544,12 +2547,12 @@ footer {
 }
 @media (max-width: 1100px) {
     .catalog-front {
-        padding-top: 90px;
+        padding-top: 180px;
     }
 }
 @media (max-width: 768px) {
     .catalog-front {
-        padding-top: 60px;
+        padding-top: 150px;
     }
 }
 @media (max-width: 430px) {
@@ -3074,7 +3077,7 @@ footer {
 @media (max-width: 430px) {
     .product-card__wrap {
         gap: 25px;
-        padding-top: 60px;
+        padding-top: 150px;
     }
     .product-card__img img {
         max-width: 60px;
@@ -3543,7 +3546,7 @@ footer {
 }
 @media (max-width: 430px) {
     .blog {
-        padding-top: 60px;
+        padding-top: 150px;
     }
     .blog__item {
         width: 100%;
@@ -3652,7 +3655,7 @@ footer {
         font-size: 35px;
     }
     .blog-post {
-        padding-top: 80px;
+        padding-top: 170px;
         padding-bottom: 125px;
     }
     .blog-post__text {
@@ -3682,7 +3685,7 @@ footer {
         padding-bottom: 25px;
     }
     .blog-post {
-        padding-top: 60px;
+        padding-top: 150px;
         padding-bottom: 125px;
     }
 }
@@ -3794,7 +3797,7 @@ footer {
         font-size: 14px;
     }
     .career {
-        padding-top: 60px;
+        padding-top: 150px;
         padding-bottom: 45px;
     }
 }
