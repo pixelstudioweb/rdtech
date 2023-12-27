@@ -91,3 +91,12 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.classList.remove('active__menu');
     });
 });
+const header = document.querySelector('.header__main');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > window.innerHeight) {
+        header.classList.add('header_white');
+    } else {
+        header.classList.remove('header_white');
+    }
+});
